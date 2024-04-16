@@ -1,0 +1,6 @@
+StartAt: SayHello
+States:
+    SayHello:
+        End: true
+        Type: Pass
+        Result: "Hello, World!"
